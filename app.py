@@ -23,7 +23,7 @@ expert_type = st.radio(
     ("A: 地理の専門家", "B: 料理の専門家")
 )
 
-user_input = st.text_input("質問を入力してください", "日本の首都を教えてください。")
+user_input = st.text_input("質問を入力してください", "")
 
 
 def get_llm_response(input_text: str, expert_type: str) -> str:
